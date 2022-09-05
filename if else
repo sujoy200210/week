@@ -1,0 +1,17 @@
+//if else using c++
+#include <iostream>
+using namespace std;
+int main(){
+    int r,s,cpool,spool;
+    cin>>r>>s;
+    cpool=r*r*3.14;    
+    spool=s*s;
+    if (cpool>spool){
+        cout<<"I Prefer Centre 1";
+        
+    }
+    else{
+        cout<<"I Prefer Centre 2";
+}
+   
+ }
