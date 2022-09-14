@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class e{
+   public:
+    int a;
+    public:
+    int s(){
+        int i;
+        for (i=1000;i<=2000;i++){
+            if (i%8==0 && i%5==0){
+                a=i;
+                cout<<a<<"\t" ;
+                //return a;
+            }
+            
+        }
+    }
+};
+int main(){
+    e d;
+  d.s();
+   // cout<<d.a;
+}
