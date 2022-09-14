@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+class cal{
+    private:
+    int a;
+    int b;
+    public:
+    int clac(int g){
+        a=g;
+        int s,d;
+        cin>>s>>d;
+        if (a==1){
+            
+            cout<<s+d<<endl;
+        
+        }
+        else if (a==2){
+         cout<<s/d<<endl ;
+         
+        }
+       else{
+        cout<<s*d;
+}
+    }
+    };
+    int main(){
+        cal c;
+        c.clac(2);
+    }
